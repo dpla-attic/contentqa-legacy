@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.summary     = "Support QA for content being ingested into the DPLA"
   s.description = "Support QA for content being ingested into the DPLA"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["../LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.11"
